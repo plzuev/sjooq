@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SjOOQ.iml" filepath="$PROJECT_DIR$/.idea/SjOOQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SjOOQ-core.iml" filepath="$PROJECT_DIR$/SjOOQ-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SjOOQ-ksp-annotations.iml" filepath="$PROJECT_DIR$/SjOOQ-ksp-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-annotations.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-annotations.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-annotations.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-annotations.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SjOOQ-ksp-processor.iml" filepath="$PROJECT_DIR$/SjOOQ-ksp-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-processor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-processor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-processor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-ksp-processor.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-ksp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-ksp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-ksp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-ksp.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SjOOQ-tests.iml" filepath="$PROJECT_DIR$/SjOOQ-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SjOOQ-tx.iml" filepath="$PROJECT_DIR$/SjOOQ-tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-tx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-tx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SjOOQ-tx.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SjOOQ-tx.test.iml" />
+    </modules>
+  </component>
+</project>

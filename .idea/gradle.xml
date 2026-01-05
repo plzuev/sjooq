@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SjOOQ-core" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Downloads/gradle-9.2.1" />
+        <option name="gradleJvm" value="liberica-full-25" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SjOOQ-core" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SjOOQ-ksp" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Downloads/gradle-9.2.1" />
+        <option name="gradleJvm" value="liberica-full-25" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SjOOQ-ksp" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SjOOQ-ksp-annotations" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Downloads/gradle-9.2.1" />
+        <option name="gradleJvm" value="liberica-full-25" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SjOOQ-ksp-annotations" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SjOOQ-ksp-processor" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Downloads/gradle-9.2.1" />
+        <option name="gradleJvm" value="liberica-full-25" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SjOOQ-ksp-processor" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SjOOQ-tests" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Downloads/gradle-9.2.1" />
+        <option name="gradleJvm" value="liberica-full-25" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SjOOQ-tx" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../Downloads/gradle-9.2.1" />
+        <option name="gradleJvm" value="liberica-full-25" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SjOOQ-tx" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

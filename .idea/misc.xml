@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SjOOQ-core" />
+    <file type="web" url="file://$PROJECT_DIR$/SjOOQ-ksp" />
+    <file type="web" url="file://$PROJECT_DIR$/SjOOQ-ksp-annotations" />
+    <file type="web" url="file://$PROJECT_DIR$/SjOOQ-ksp-processor" />
+    <file type="web" url="file://$PROJECT_DIR$/SjOOQ-tx" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

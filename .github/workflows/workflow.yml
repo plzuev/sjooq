@@ -1,0 +1,71 @@
+name: workflow
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      GRADLE_OPTS: >-
+        -Dorg.gradle.daemon=false
+        -Dorg.gradle.jvmargs="-Xmx2g -Dfile.encoding=UTF-8"
+      DOCKER_BUILDKIT: "1"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Setup Gradle (caching)
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-cleanup: on-success
+
+      - name: Show versions
+        run: |
+          java -version
+          ./gradlew --version
+
+      # На всякий случай — убедимся, что модуль виден Gradle
+      - name: List projects
+        run: ./gradlew projects --no-daemon
+
+      - name: Run tests in SjOOQ-tests module
+        run: ./gradlew :SjOOQ-tests:test --no-daemon
+
+      # Если в этом модуле есть дополнительные тестовые таски (integrationTest и т.п.)
+      - name: Run extra test tasks in SjOOQ-tests if present
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          extra_tasks=()
+          for t in integrationTest functionalTest e2eTest componentTest acceptanceTest; do
+            if ./gradlew -q :SjOOQ-tests:tasks --all | grep -qE "^${t}\b"; then
+              extra_tasks+=(":SjOOQ-tests:${t}")
+            fi
+          done
+
+          if [ "${#extra_tasks[@]}" -gt 0 ]; then
+            echo "Running extra test tasks: ${extra_tasks[*]}"
+            ./gradlew "${extra_tasks[@]}" --no-daemon
+          else
+            echo "No extra test tasks found in SjOOQ-tests."
+          fi

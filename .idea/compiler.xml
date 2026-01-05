@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="SjOOQ-core" target="25" />
+      <module name="SjOOQ-core.main" target="25" />
+      <module name="SjOOQ-core.test" target="25" />
+      <module name="SjOOQ-ksp" target="25" />
+      <module name="SjOOQ-ksp-annotations" target="25" />
+      <module name="SjOOQ-ksp-annotations.main" target="25" />
+      <module name="SjOOQ-ksp-annotations.test" target="25" />
+      <module name="SjOOQ-ksp-processor" target="25" />
+      <module name="SjOOQ-ksp-processor.main" target="25" />
+      <module name="SjOOQ-ksp-processor.test" target="25" />
+      <module name="SjOOQ-ksp.main" target="25" />
+      <module name="SjOOQ-ksp.test" target="25" />
+      <module name="SjOOQ-tx" target="25" />
+      <module name="SjOOQ-tx.main" target="25" />
+      <module name="SjOOQ-tx.test" target="25" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
